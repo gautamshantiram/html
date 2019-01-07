@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Website</title>
+	<!--==============Giving styele====================-->
+	<style>
+		form {
+
+			text-align: right;
+			margin: 20px
+		}
+		header,footer{
+			padding: 10px;
+			background-color: blue;
+			color: white;
+			text-align: center;
+		}
+		
+		p{
+			text-align: justify;
+		}
+		nav ul li{
+			display: inline;
+			padding: 40px;
+			}
+		a{
+			font-size: larger;}
+		body {
+		background-color: fffff;
+		borders double;
+		}
+	</style>
+	
+</head>
+<body>
+	<header>
+		<marquee behavior="scroll" direction="left"><h1>Welcome to My Official Site</h1></marquee>
+	</header>
+
+
+<!--==============Create hyperlinks====================-->
+<nav>
+	<ul>
+		<li><a title="Click here to refresh." href="index.html"><img src="photos/home.jpg" height="60" width="90"></a></li>
+		<li><a title="Click here to see my pictures and videos." href="Gallery.html"><img src="photos/gallery.jpg" height="60" width="70"></a></li>
+		<li><a title="Click here to see my Fields of interest." href="interest.html"><img src="photos/interest.jpg" height="60" width="100"></a></li>
+		<li><a title="Click here to see my Friends detail." href="friendlist.html"><img src="photos/friendlist.jpg" height="60" width="100"></a></li>
+		<li><a title="Click here to contact me." href="contact me.html"><img src="photos/contact.jpg" height="60" width="140"></a></li>
+		<li><a title="Click to Google Search" href="https://www.google.com"><img src="photos/google1.jpg" height="60" width="130"></a></li>
+	</ul>
+</nav>
+<!--===============Heading and Paragraphs===================-->
+
+	<h2>About my Country Nepal </h2>
+	<p><a title="Click here to learn more about Nepal." href="https://en.wikipedia.org/wiki/Nepal"><b>Nepal</b></a> is a landlocked country in South Asia. It is located mainly in the Himalayas but also includes parts of the Indo-Gangetic Plain. With an estimated population of 26.4 million, it is 48th largest country by population and 93rd largest country by area.[2][14] It borders China in the north and India in the south, east, and west while Bangladesh is located within only 27 km (17 mi) of its southeastern tip and Bhutan is separated from it by the Indian state of Sikkim. Nepal has a diverse geography, including fertile plains,[15] subalpine forested hills, and eight of the world's ten tallest mountains, including Mount Everest, the highest point on Earth. <i><b>Kathmandu is the nation's capital and largest city</i></b>. Nepal is a multiethnic nation with Nepali as the official language</p>
+<!--===============Heading and Paragraphs===================-->
+	<p>The name "Nepal" is first recorded in texts from the Vedic period of the Indian subcontinent, the era in ancient India when Hinduism was founded, the predominant religion of the country. In the middle of the first millennium BCE, Gautama Buddha, the founder of Buddhism, was born in Lumbini in southern Nepal. Parts of northern Nepal were intertwined with the culture of Tibet. The centrally located Kathmandu Valley was the seat of the prosperous Newar confederacy known as Nepal Mandala.</p>
+	
+
+<!--===============Heading h3 and Paragraphs===================-->
+	<h3>About my District Bhaktapur</h3>
+	<p>Bhaktapur district located in the eastern part of <strong>Kathmandu valley</strong>, is the smallest among the seventy-sevendistricts of Nepal. It is part of Province No. 3. The district, with Bhaktapur as its district headquarters, covers an area of 119 km2 (46 sq mi) and in 2011 had a population of 304,651[3] of whom 9,701 people were absent (mostly working abroad).[4] </p>
+<!--===============Insert the Google Map here===================-->
+
+	<div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="250" id="gmap_canvas" src="https://maps.google.com/maps?q=bode%20bhaktapur&t=k&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.pureblack.de"></a></div><style>.mapouter{text-align:right;height:250px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>
+<!--===============Heading and Paragraphs===================-->
+<h4>About Myself</h4>
+<a title="Click to enlarge it." href="photos/shanti.jpg"><img src="photos/shanti.jpg" height="200" width="200"></a><br>
+
+<a title="Go to Facebook" href="https://www.facebook.com/gautamshantiram"><img src="photos/facebook1.jpg" height="50" width="150"></a>
+
+	<p title = "About Shanti Ram Gautam">I was born in Tehrathum District in 2036BS. I lived there for 20 years. I completed SLC from Kalika Secondary School and after that start working as a Computer Science and Math teacher for 6 years. I moved to Bhaktapur and continue my job as a teacher there along with my formal and non formal study. I completed MA and MEd in 2067BS then migrated to the USA</p>
+
+<marquee behavior="alternate" direction="left">
+	<a title="Click me to enlarge." href="photos/nepal.jpg"><img src="photos/nepal.jpg" height="100" width="200"></a>
+</marquee>
+
+<!--================Adding footer==================-->
+<footer><p>copyright &copy 2018 Shanti Ram Gautam</p>
+	<p id="date"></p>
+				<script>
+				document.getElementById("date").innerHTML = Date();
+			</script>
+</footer>
+			
+</body>
+</html>
